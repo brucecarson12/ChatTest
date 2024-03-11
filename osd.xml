@@ -4,7 +4,7 @@
   <Contact>support@example.com</Contact>
   <Url type="text/html" sfdc:maxTotalResults="500" 
 template="https://mycommunity.validity.com/restapi/vc/search/messages?q=<searchterms>"/>
-  <Query role="example" searchTerms="everest" />
+  <Query searchTerms="everest" />
   <sfdc:RecordTypes>
     <sfdc:RecordType name="Blog Post">
       <sfdc:Field name="Author" type="string" sortable="true"/>
