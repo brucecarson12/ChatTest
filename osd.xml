@@ -16,7 +16,7 @@ template="https://mycommunity.validity.com/restapi/vc/search/messages?q=<searcht
     </sfdc:RecordType>
   </sfdc:RecordTypes>
   <Attribution>
-    Copyright 2016, All Rights Reserved
+    Copyright 3999, All Rights Reserved
   </Attribution>
   <InputEncoding>UTF-8</InputEncoding>
   <OutputEncoding>UTF-8</OutputEncoding>
