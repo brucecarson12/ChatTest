@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:sfdc="http://salesforce.com/2016/federatedsearch/1.0">
+  <ShortName>Document Search</ShortName>
+  <Contact>support@example.com</Contact>
+  <Url type="application/atom+xml" sfdc:maxTotalResults="500" 
+template="https://mycommunity.validity.com/restapi/vc/search/messages?q=<searchterms>&amp;
+byId={sfdc:searchById?}&amp;type={sfdc:recordType}&amp;
+user={sfdc:userEmail}&amp;start={startIndex?}&amp;num={count?}&amp;
+sf={sfdc:sortField?}&amp;sd={sfdc:sortDirection?}"/>
+  <sfdc:RecordTypes>
+    <sfdc:RecordType name="Blog Post">
+      <sfdc:Field name="Author" type="string" sortable="true"/>
+      <sfdc:Field name="Expiration date" type="date" sortable="true"/>
+    </sfdc:RecordType>
+    <sfdc:RecordType name="Medical Record">
+      <sfdc:Field name="Main author" type="string" sortable="true"/>
+      <sfdc:Field name="Reviewed" type="boolean" sortable="false"/>
+    </sfdc:RecordType>
+  </sfdc:RecordTypes>
+  <Attribution>
+    Copyright 2016, All Rights Reserved
+  </Attribution>
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <sfdc:Version>1</sfdc:Version>
+</OpenSearchDescription>
