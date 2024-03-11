@@ -3,10 +3,7 @@
   <ShortName>Document Search</ShortName>
   <Contact>support@example.com</Contact>
   <Url type="application/atom+xml" sfdc:maxTotalResults="500" 
-template="https://mycommunity.validity.com/restapi/vc/search/messages?q=<searchterms>&amp;
-byId={sfdc:searchById?}&amp;type={sfdc:recordType}&amp;
-user={sfdc:userEmail}&amp;start={startIndex?}&amp;num={count?}&amp;
-sf={sfdc:sortField?}&amp;sd={sfdc:sortDirection?}"/>
+template="https://mycommunity.validity.com/restapi/vc/search/messages?q=<searchterms>"/>
   <sfdc:RecordTypes>
     <sfdc:RecordType name="Blog Post">
       <sfdc:Field name="Author" type="string" sortable="true"/>
