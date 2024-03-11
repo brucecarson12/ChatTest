@@ -2,7 +2,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:sfdc="http://salesforce.com/2016/federatedsearch/1.0">
   <ShortName>Document Search</ShortName>
   <Contact>support@example.com</Contact>
-  <Url type="application/atom+xml" sfdc:maxTotalResults="500" 
+  <Url type="text/html" sfdc:maxTotalResults="500" 
 template="https://mycommunity.validity.com/restapi/vc/search/messages?q=<searchterms>"/>
   <Query role="example" searchTerms="everest" />
   <sfdc:RecordTypes>
